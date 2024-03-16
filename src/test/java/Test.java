@@ -1,41 +1,4 @@
-/*import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
-
-public class TestCase1 {
-    //variables
-    WebDriver driver;
-    String url="https://www.google.com/";
-    String Searchkey="Test Automation";
-    String statusvalueid="result-stats";
-    //locators
-    By SearchBar = new By.ByName("q");// دى طريقه او ممكن زى تحت اكتب
-
-
-
-    //kewords
-    @Test
-    public  void Test(){
-        driver= new ChromeDriver();// interface implement  chromeclass
-     driver.get(url);// روح يا بروزر لل url ده
-     driver.findElement(SearchBar).sendKeys(Searchkey);
-     driver.findElement(SearchBar).sendKeys(Keys.ENTER);// Instread of find element by locator it ,and then click on it
-        WebElement searchstatistices= driver.findElement(By.id(statusvalueid));
-        assertTrue(searchstatistices.isDisplayed());
-        assertEquals("حوالى 642,000,000 نتيجة (0.25 ثانية) ",searchstatistices.getText());
-        driver.close();
-
-
-
-
-    }
-}*/
 
 
 
